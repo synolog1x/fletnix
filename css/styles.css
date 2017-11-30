@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    width: auto;
+    text-align: right;
+}
+
+footer{
+    text-align: center;
+    border-top: double;
+    margin: 50px 75px 30px;
+    padding:5px;
+}
+
+.veld input {
+    width: auto;
+}
+
+.radio input {
+}
+
+@media only screen and (max-width: 400px) {
+body {
+    background: url('../images/background.gif')
+}
+
+/* TODO: width van main op 100% bij tablets en telefoons. */
+}
+
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #f2f9ff;
+    background-color: #555555;
+
+}
+
+/* navigatie */
+nav a:link,
+nav a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+nav a:hover {
+    text-decoration: underline;
+    color:#FF0000;
+}
+
+
+nav {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 10px;
+    background-color: #353431;
+    color: #FFFFFF;
+
+
+}
+
+nav img{
+    width:100px;
+}
+
+.menu{
+    margin-right:50px;
+}
+
+.menu > li {
+    display: inline;
+    margin-left: 50px;
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    background: #53524f;
+    padding-top: 60px;
+
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    z-index: 1;
+}
+
+.dropdown-menu li {
+    list-style: none;
+    border-bottom: 1px solid #FFF;
+
+    padding: 0 20px 10px 20px;
+    margin: 10px;
+}
+
+.dropdown-menu li:last-of-type {
+    border-bottom: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > span, .dropdown > a {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+}
+/* eind navigatie */
+
+header{
+display: block;
+    text-align: center;
+    /*TODO: fix dat dit geen padding hoeft te zijn!!! */
+    padding-top: 100px;
+}
+
+/* filmoverzicht */
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure{
+    border: 1px solid black;
+    margin:5px;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+/* SHADOW/GLOW TRANSITIONS */
+/* Glow */
+/* Bron: http://ianlunn.github.io/Hover/ */
+figure{
+    vertical-align: middle;
+    box-shadow: 0 0 100px transparent;
+    transition-duration: 0.5s;
+    transition-property: box-shadow;
+}
+
+figure:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
+}
+
+figure a{
+   color: #FFFFFF;
+    text-decoration: none;
+}
+
+figure a:hover{
+    color: #FF0000;
+}
+
+
+
+
+
+/* film */
+
+.filmpagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.filmimg-section img{
+    width: 300px;
+    height: 100%;
+}
+
+.filminformatie-section{
+    display: block;
+    text-align: center;
+}
+
+.playbutton{
+    width: 50px;
+    margin-top: 10px;
+}
+
+/* video */
+video{
+    width: 100%;
+}
+
+/*STYLE VOOR INDEX*/
+
+.index{
+    display: flex;
+    text-align: justify;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.indexfiguretext span{
+    color: #FF0000;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.indexfigure{
+    width: 30%;
+}
+
+.indexfigure img{
+    width: 100%;
+}
