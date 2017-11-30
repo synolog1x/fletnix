@@ -119,6 +119,7 @@ display: block;
 section{
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 figure{
