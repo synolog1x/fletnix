@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Fletnix - Abonnement</title>
+</head>
+<body>
+
+<nav>
+    <div class="logo"><a href="index.html"><img src="images/logo.png"/></a></div>
+    <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown"><a href="filmoverzicht.html">Films ▾</a>
+            <ul class="dropdown-menu">
+                <li><a href="filmoverzicht.html#actie">Actie</a></li>
+                <li><a href="filmoverzicht.html#comedy">Comedy</a></li>
+            </ul>
+        </li>
+        <li><a href="over-ons.html">Over Ons</a></li>
+        <li class="dropdown"><span>Login ▾</span>
+            <ul class="dropdown-menu">
+                <li><a href="#">Profiel</a></li>
+                <li><a href="#">Afmelden</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<header>
+    <h1>Inloggen</h1>
+</header>
+
+
+<main>
+    <form action="index-ingelogd.html" id="inlogformulier">
+        <div class="veld">
+            <!-- als je op de label klikt wordt input geselecteerd -->
+            <label for="gebruikersnaam">Gebruikersnaam</label>
+            <input type="text" name="gebruikersnaam" id="gebruikersnaam" placeholder="taco123" required/>
+        </div>
+        <div class="veld">
+            <!-- als je op de label klikt wordt input geselecteerd -->
+            <label for="wachtwoord">Wachtwoord</label>
+            <input type="password" name="wachtwoord" id="wachtwoord" placeholder="3663&$$$^&" required/>
+        </div>
+        <input type="submit">
+    </form>
+</main>
+<footer>
+    <p>&copy Sander Bussink & Valérie de Bie</p>
+</footer>
+</body>
+</html>

@@ -20,8 +20,6 @@ footer{
     width: auto;
 }
 
-.radio input {
-}
 
 
 
@@ -200,6 +198,13 @@ video{
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #53524f;
+}
+
+.indexbody{
+    background: url(../images/movies.png);
+    width: 100%;
+    background-repeat: round;
 }
 
 .indexfiguretext{
