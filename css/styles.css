@@ -15,19 +15,23 @@ footer{
 /* formulier */
 label, input, select, fieldset {
     display: inline-block;
+    border: none;
 }
 
 label {
     width: 30%;
     text-align: right;
+    margin-right: 60px;
 }
 
-label + input, label + select, label+fieldset{
+label + input, label + select, label{
     width: 30%;
-    margin: 0 30% 0 4%;
 }
 
-
+.submit{
+    margin: 5px 47.5% auto auto;
+    display: block;
+}
 
 
 body {
@@ -43,7 +47,6 @@ nav a:link,
 nav a:visited {
     color: #FFFFFF;
     text-decoration: none;
-
 }
 nav a:hover {
     text-decoration: underline;
@@ -126,7 +129,6 @@ display: block;
 section{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 30px;
 }
 
 figure{
@@ -235,4 +237,3 @@ width: 100%;
         width: 100%;
     }
 }
-
