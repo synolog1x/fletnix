@@ -6,7 +6,6 @@
 
 label {
     width: auto;
-    text-align: right;
 }
 
 footer{
@@ -55,8 +54,6 @@ nav {
     padding: 10px;
     background-color: #353431;
     color: #FFFFFF;
-
-
 }
 
 nav img{
@@ -109,8 +106,8 @@ nav img{
     position: relative;
     cursor: pointer;
 }
-/* eind navigatie */
 
+/* eind navigatie */
 header{
 display: block;
     text-align: center;
@@ -198,19 +195,15 @@ video{
     align-items: stretch;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: #53524f;
 }
 
-.indexbody{
-    background: url(../images/movies.png);
-    width: 100%;
-    background-repeat: round;
-}
 
 .indexfiguretext{
     width: 100%;
 }
-.indexfiguretext span{
+
+em{
+    font-style: normal;
     color: #FF0000;
     font-size: 25px;
     font-weight: bold;
@@ -232,9 +225,5 @@ video{
 
     main {
         width: 100%;
-        /* TODO: width van main op 100% bij tablets en telefoons. */
-
-
-
     }
 }
