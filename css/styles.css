@@ -23,17 +23,8 @@ footer{
 .radio input {
 }
 
-@media only screen and (max-width: 500px) {
-body {
-    background: url('../images/background.gif')
-}
-main{
-    width: 100%;
 
-}
 
-/* TODO: width van main op 100% bij tablets en telefoons. */
-}
 
 body {
     font-size: 18px;
@@ -223,4 +214,19 @@ video{
 
 .indexfigure img{
     width: 100%;
+}
+
+
+@media only screen and (max-width: 500px) {
+    body {
+        background: url('../images/background.gif')
+    }
+
+    main {
+        width: 100%;
+        /* TODO: width van main op 100% bij tablets en telefoons. */
+
+
+
+    }
 }
