@@ -12,10 +12,20 @@ footer{
     padding:5px;
 }
 
-.veld input {
-    width: auto;
+/* formulier */
+label, input, select, fieldset {
+    display: inline-block;
 }
 
+label {
+    width: 30%;
+    text-align: right;
+}
+
+label + input, label + select, label+fieldset{
+    width: 30%;
+    margin: 0 30% 0 4%;
+}
 
 
 
@@ -215,13 +225,14 @@ em{
     width: 100%;
 }
 
+main img{
+width: 100%;
+}
 
 @media only screen and (max-width: 500px) {
-    body {
-        background: url('../images/background.gif')
-    }
 
     main {
         width: 100%;
     }
 }
+
