@@ -236,4 +236,7 @@ width: 100%;
     main {
         width: 100%;
     }
+
+    /*TODO: op de homepagina flex-direction: column */
+    /*TODO: op de filmoverzicht pagina inline: flex ipv flex, en margin auto doen.*/
 }
